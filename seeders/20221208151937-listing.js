@@ -37,8 +37,8 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          name: 'Honey',
-          image: 'https://i.imgur.com/ujzb8cl.jpeg',
+          petName: 'Honey',
+          petImage: 'https://i.imgur.com/ujzb8cl.jpeg',
           description: `Small light brown mongolian gerbil with a light pink nose and a long tail`,
           sex: 'female',
           species: 'Mongolian',
