@@ -4,7 +4,7 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     return queryInterface.bulkInsert(
-      'signs',
+      'listings',
       [
         {
           petName: 'Millie',
@@ -12,7 +12,7 @@ module.exports = {
           description: `All black lab mix that's around 80 lbs, has a white spot on his back left leg.`,
           sex: 'male',
           species: 'labrador mix',
-          lastSeen: 'December 7, 2022',
+          lastSeen: 'Norfolk, VA 23518, December 7, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -22,7 +22,7 @@ module.exports = {
           description: `Light brown coat with black nose, and a nice long curly tail. He's around 65 lbs`,
           sex: 'male',
           species: 'Danish Broholmer',
-          lastSeen: 'December 3, 2022',
+          lastSeen: 'Fairfax, VA 22032, December 3, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -32,7 +32,7 @@ module.exports = {
           description: `Bright blue eyes with a nice cream fur coat with black coated ears and face`,
           sex: 'female',
           species: 'Himalayan',
-          lastSeen: 'December 8, 2022',
+          lastSeen: 'Washington, DC December 8, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -42,7 +42,7 @@ module.exports = {
           description: `Small light brown mongolian gerbil with a light pink nose and a long tail`,
           sex: 'female',
           species: 'Mongolian',
-          lastSeen: 'December 2, 2022',
+          lastSeen: 'Laurel, MD 20707 December 2, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         }
