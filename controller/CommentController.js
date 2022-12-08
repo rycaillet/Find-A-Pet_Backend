@@ -17,3 +17,19 @@ const GetCommentById = async (req, res) => {
     throw error
   }
 }
+
+const CreateComment = async (req, res) => {
+  try {
+    let listingId = parseInt(req.params.listing_id)
+    let userId = parseInt(req.params.user_id)
+    let commentBody = {
+      userId,
+      listingId,
+      ...req.body
+    }
+    const createdComment = await Comment.create(commentBody)
+    res.send(createdComment)
+  } catch (error) {
+    throw error
+  }
+}
