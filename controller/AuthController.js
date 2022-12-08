@@ -34,3 +34,8 @@ const Register = async (req, res) => {
     throw error
   }
 }
+
+const CheckSession = async (req, res) => {
+  const { payload } = res.locals
+  res.send(payload)
+}
