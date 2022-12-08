@@ -33,3 +33,17 @@ const CreateComment = async (req, res) => {
     throw error
   }
 }
+
+const UpdateComment = async (req, res) => {
+  try {
+    let commentId = parseInt(req.params.comment_id)
+
+    let updatedComment = await Comment.update(req.body, {
+      where: { id: commentId },
+      returning: true
+    })
+    res.send(updatedComment)
+  } catch (error) {
+    throw error
+  }
+}
