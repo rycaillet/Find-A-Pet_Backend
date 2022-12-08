@@ -9,3 +9,8 @@ const hashPassword = async (password) => {
   let hashedPassword = await bcrypt.hash(password, SALT_ROUNDS)
   return hashedPassword
 }
+
+const comparePassword = async (storedPassword, password) => {
+  let passwordMatch = await bcrypt.compare(password, storedPassword)
+  return passwordMatch
+}
