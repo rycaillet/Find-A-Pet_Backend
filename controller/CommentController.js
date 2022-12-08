@@ -8,3 +8,12 @@ const GetAllComments = async (req, req) => {
     throw error
   }
 }
+
+const GetCommentById = async (req, res) => {
+  try {
+    const comment = await Comment.findByPk(req.params.id)
+    res.send(comment)
+  } catch (error) {
+    throw error
+  }
+}
