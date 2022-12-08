@@ -1,0 +1,29 @@
+{
+  "name": "find-a-pet_backend",
+  "version": "1.0.0",
+  "description": "![image](./images/Find_A_Pet-logo.png)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm install && npx sequelize-cli db:migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rycaillet/Find-A-Pet_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rycaillet/Find-A-Pet_Backend/issues"
+  },
+  "homepage": "https://github.com/rycaillet/Find-A-Pet_Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.8.0",
+    "sequelize": "^6.26.0"
+  }
+}
