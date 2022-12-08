@@ -57,3 +57,11 @@ const DeleteComment = async (req, res) => {
     throw error
   }
 }
+
+module.exports = {
+  GetAllComments,
+  GetCommentById,
+  CreateComment,
+  UpdateComment,
+  DeleteComment
+}
