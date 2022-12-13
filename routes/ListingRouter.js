@@ -2,11 +2,11 @@ const router = require('express').Router()
 const controller = require('../controller/ListingController')
 const middleware = require('../middleware')
 
-router.get('/', controller.GetAllComments)
+router.get('/', controller.GetAllListings)
 
 // // Create a new listing
 router.post(
-  '/new_listing/user/:user_id',
+  '/new_listing',
   middleware.stripToken,
   middleware.verifyToken,
   controller.CreateListing
@@ -22,7 +22,7 @@ router.put(
 
 // delete a listing
 router.delete(
-  '/:comment_id',
+  '/:listing_id',
   middleware.stripToken,
   middleware.verifyToken,
   controller.DeleteListing

@@ -1,6 +1,6 @@
 const { Listing } = require('../models')
 
-const GetAllListings = async (req, req) => {
+const GetAllListings = async (req, res) => {
   try {
     const listings = await Listing.findAll({})
     res.send(listings)
@@ -20,9 +20,9 @@ const GetListingById = async (req, res) => {
 
 const CreateListing = async (req, res) => {
   try {
-    let userId = parseInt(req.params.user_id)
+    let listingId = parseInt(req.params.listing_id)
     let listingBody = {
-      userId,
+      listingId,
       ...req.body
     }
     const createdListing = await Listing.create(listingBody)

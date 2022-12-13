@@ -1,6 +1,6 @@
 const { Comment } = require('../models')
 
-const GetAllComments = async (req, req) => {
+const GetAllComments = async (req, res) => {
   try {
     const comments = await Comment.findAll({})
     res.send(comments)

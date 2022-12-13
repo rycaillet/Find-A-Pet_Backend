@@ -7,7 +7,7 @@ module.exports = {
     const users = [...Array(20)].map((_) => {
       return {
         userName: falso.randUserName(),
-        password: falso.randPassword(),
+        passwordDigest: falso.randPassword(),
         createdAt: new Date(),
         updatedAt: new Date()
       }
