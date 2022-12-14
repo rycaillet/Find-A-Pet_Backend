@@ -1,6 +1,5 @@
 'use strict'
 const falso = require('@ngneat/falso')
-const { User, Listing, sequelize } = require('../models')
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
