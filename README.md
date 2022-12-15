@@ -13,8 +13,8 @@
 ####
 
 **Website Link:**
-[Heroku](https://find-a-pet-frontend.herokuapp.com/)
-
+[Heroku](https://find-a-pet-frontend.herokuapp.com/) |
+[frontend](https://github.com/rycaillet/Find_A_Pet-Frontend)
 ---
 
 ## **_Description_**
