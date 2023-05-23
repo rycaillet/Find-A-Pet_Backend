@@ -1,11 +1,13 @@
 require('dotenv').config()
 module.exports = {
   development: {
-    database: 'FAP_deployment',
+    // database: 'FAP_deployment',
+    database: 'FAP_development',
     dialect: 'postgres'
   },
   test: {
-    database: 'FAP_deployment',
+    // database: 'FAP_deployment',
+    database: 'FAP_development',
     dialect: 'postgres'
   },
   production: {
