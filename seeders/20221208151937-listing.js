@@ -58,7 +58,7 @@ module.exports = {
         },
         {
           petName: 'Sadie',
-          petImage: 'https://i.imgur.com/dgaCZdo.jpeg',
+          petImage: 'https://i.imgur.com/Q5vV8d4.jpeg',
           description: `Adorable Pitbull whose really friendly with other humans/dogs. Brown eyes and a white strip going down belly.`,
           sex: 'female',
           species: 'dog',
@@ -68,7 +68,7 @@ module.exports = {
         },
         {
           petName: 'Hammy',
-          petImage: 'https://i.imgur.com/pqggrK0.jpeg',
+          petImage: 'https://i.imgur.com/dxNdstp.jpeg',
           description: `Orange tabby cat, shorthair. Under his chin is white, he's about 10lbs. Very timid and scared of strangers. 2 years old`,
           sex: 'male',
           species: 'cat',
@@ -98,7 +98,7 @@ module.exports = {
         },
         {
           petName: 'Callie',
-          petImage: 'https://i.imgur.com/rhjfEGr.jpeg',
+          petImage: 'https://i.imgur.com/bh4CGSG.jpeg',
           description: `Callie is a corgi mix whose around 10 years old. She has brown eyes, black nose and white/black/brown fur`,
           sex: 'female',
           species: 'dog',
