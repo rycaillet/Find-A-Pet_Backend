@@ -12,7 +12,7 @@ module.exports = {
           description: `All black lab mix that's around 80 lbs, has a white spot on his back left leg.`,
           sex: 'male',
           species: 'dog',
-          lastSeen: 'Norfolk, VA 23518, December 7, 2023',
+          lastSeen: 'Norfolk, VA 23518, December 7, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -22,7 +22,7 @@ module.exports = {
           description: `Light brown coat with black nose, and a nice long curly tail. He's around 65 lbs`,
           sex: 'male',
           species: 'dog',
-          lastSeen: 'Fairfax, VA 22032, December 3, 2023',
+          lastSeen: 'Fairfax, VA 22032, December 3, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -32,7 +32,7 @@ module.exports = {
           description: `Bright blue eyes with a nice cream fur coat with black coated ears and face`,
           sex: 'female',
           species: 'cat',
-          lastSeen: 'Washington, DC December 8, 2023',
+          lastSeen: 'Washington, DC December 8, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -42,7 +42,7 @@ module.exports = {
           description: `Mainly black all around with hints of brown on the ears and face.`,
           sex: 'female',
           species: 'dog',
-          lastSeen: 'Laurel, MD 20707 December 2, 2023',
+          lastSeen: 'Laurel, MD 20707 December 2, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -52,7 +52,7 @@ module.exports = {
           description: `All black cat whose a little chunky with a black nose`,
           sex: 'male',
           species: 'cat',
-          lastSeen: 'Hamilton, VA  20158 December 11, 2023',
+          lastSeen: 'Hamilton, VA  20158 December 11, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -62,7 +62,7 @@ module.exports = {
           description: `Adorable Pitbull whose really friendly with other humans/dogs. Brown eyes and a white strip going down belly.`,
           sex: 'female',
           species: 'dog',
-          lastSeen: 'Fairfax, VA  22030 December 10, 2023',
+          lastSeen: 'Fairfax, VA  22030 December 10, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -72,7 +72,7 @@ module.exports = {
           description: `Orange tabby cat, shorthair. Under his chin is white, he's about 10lbs. Very timid and scared of strangers. 2 years old`,
           sex: 'male',
           species: 'cat',
-          lastSeen: 'Woodbridge, VA 22191 December 11, 2023',
+          lastSeen: 'Woodbridge, VA 22191 December 11, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -82,7 +82,7 @@ module.exports = {
           description: `Only 4 months old. Light brown fur.`,
           sex: 'female',
           species: 'dog',
-          lastSeen: 'Rockville, MD 20851 December 2, 2023',
+          lastSeen: 'Rockville, MD 20851 December 2, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -92,7 +92,7 @@ module.exports = {
           description: `Siberian cat with all white belly side and all brown on the top of his body`,
           sex: 'female',
           species: 'cat',
-          lastSeen: 'Washington, DC 20011 December 1, 2023',
+          lastSeen: 'Washington, DC 20011 December 1, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -102,7 +102,7 @@ module.exports = {
           description: `Callie is a corgi mix whose around 10 years old. She has brown eyes, black nose and white/black/brown fur`,
           sex: 'female',
           species: 'dog',
-          lastSeen: 'Dale City, VA 22193 December 1, 2023',
+          lastSeen: 'Dale City, VA 22193 December 1, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -112,7 +112,7 @@ module.exports = {
           description: `Golden Retriever with a friendly demeanor. Loves playing fetch and going for long walks.`,
           sex: 'male',
           species: 'dog',
-          lastSeen: 'Arlington, VA 22201, November 30, 2023',
+          lastSeen: 'Arlington, VA 22201, November 30, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -122,7 +122,7 @@ module.exports = {
           description: `Beautiful gray and white cat with green eyes. Has a playful and curious personality.`,
           sex: 'female',
           species: 'cat',
-          lastSeen: 'Silver Spring, MD 20910, November 29, 2023',
+          lastSeen: 'Silver Spring, MD 20910, November 29, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -132,7 +132,7 @@ module.exports = {
           description: `Large mixed-breed dog with a brown and black coat. Has a gentle and loyal nature.`,
           sex: 'male',
           species: 'dog',
-          lastSeen: 'Alexandria, VA 22304, November 28, 2023',
+          lastSeen: 'Alexandria, VA 22304, November 28, 2022',
           createdAt: new Date(),
           updatedAt: new Date()
         },
